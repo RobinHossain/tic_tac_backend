@@ -1,0 +1,41 @@
+{
+  "name": "tic_tac_back",
+  "version": "1.0.0",
+  "description": "Tic Tac Game Backend.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha -S --ui bdd --require ./tests/spec_helper.js --recursive ./tests --reporter spec",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "mern",
+    "api",
+    "server-side"
+  ],
+  "author": "Robin Hosain",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.17",
+    "morgan": "^1.9.1",
+    "request-promise": "^4.2.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.10",
+    "should": "^13.2.3",
+    "supertest": "^3.4.2"
+  }
+}
